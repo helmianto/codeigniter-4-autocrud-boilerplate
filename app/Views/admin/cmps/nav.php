@@ -15,5 +15,11 @@
                 <p>Users</p>
             </a>
         </li>
+        <li class="nav-item">
+            <a href="<?= site_url('/projects') ?>" class="nav-link <?= $request->uri->getSegment(1) == 'projects' ? 'active' : null; ?>">
+                <i class="nav-icon fas fa-plus"></i>
+                <p>Projects</p>
+            </a>
+        </li>
     </ul>
 </nav>

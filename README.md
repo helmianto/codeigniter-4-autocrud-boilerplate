@@ -21,6 +21,7 @@ $ git clone https://github.com/helmianto/codeigniter-4-autocrud-boilerplate.git 
 $ cd codeigniter-4-autocrud-boilerplate
 $ cp env .env
 $ composer update
+$ php spark serve
 ```
 
 After Copying `env` to `.env`, setting your `.env` specifically the baseURL and any database settings.
@@ -57,6 +58,6 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 ## Credits
 
-Thanks to Alex Lancer (https://github.com/alexlancer) who has created an awesome project that has really helped many developers speed up the application development process. 
+Thanks to Alex Lancer (https://github.com/alexlancer) who has created an awesome project that has helped many developers speed up the application development process (Especially Codeigniter 4 development process). 
 
 For details, you can see more about this project via the link (https://github.com/alexlancer/CodeIgniter4-CRUD-Library-Tutorial-files) and YouTube Tutorial (https://www.youtube.com/watch?v=q39sfK1gOGE&list=PLYogo31AXFBNdfzh5Vkw-AWKDflRBSSIh)
