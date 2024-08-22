@@ -30,12 +30,15 @@ After Copying `env` to `.env`, setting your `.env` specifically the baseURL and 
 
 To implement this auto-crud library you can follow the following steps.
 
-<!-- ```bash
-$ git clone https://github.com/helmianto/codeigniter-4-autocrud-boilerplate.git or Download Zip File from this Repo
-$ cd codeigniter-4-autocrud-boilerplate
-$ cp env .env
-$ composer update
-``` -->
+- Copy `Crud_core.php` and `Crud.php` from Libraries to Your Libraries Folder
+- Copy `CrudModel.php` from Models to Your Models Folder
+- Setting up your `Routes.php` for each crud you create
+- Create `admin` folder in view, and then copy `cmps` and `layouts` folder to your `Views` folder
+- Add the code below in `Pager.php`, in `$templates` section
+```bash
+$ 'pagination' => 'App\Views\admin\cmps\pagination'
+```
+- You can use `Users.php` and `Projects.php` as examples for creating controllers
 
 ## Server Requirements
 
