@@ -32,13 +32,13 @@ To implement this auto-crud library you can follow the following steps.
 
 - Copy `Crud_core.php` and `Crud.php` from Libraries to Your Libraries Folder
 - Copy `CrudModel.php` from Models to Your Models Folder
-- Setting up your `Routes.php` for each crud you create
-- Create `admin` folder in view, and then copy `cmps` and `layouts` folder to your `Views` folder
+- Create an `admin` folder in your `Views` folder, then copy the `cmps` and `layouts` folders there too
 - Add the code below in `Pager.php`, in `$templates` section
 ```bash
 $ 'pagination' => 'App\Views\admin\cmps\pagination'
 ```
 - You can use `Users.php` and `Projects.php` as examples for creating controllers
+- Setting up your `Routes.php` for each CRUD Controllers you create
 
 ## Server Requirements
 
